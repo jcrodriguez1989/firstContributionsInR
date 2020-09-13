@@ -3,7 +3,7 @@
 
 <!-- badges: start -->
 
-\[![Open Source
+![Open Source
 Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) [![R
 build
 status](https://github.com/jcrodriguez1989/firstContributionsInR/workflows/R-CMD-check/badge.svg)](https://github.com/jcrodriguez1989/firstContributionsInR/actions)
@@ -26,7 +26,7 @@ ggplot(muestra_contribuyentes(n = 500), aes(x = Pais)) +
   geom_bar()
 ```
 
-<img src="README_files/figure-gfm/unnamed-chunk-2-1.png" width="100%" />
+<img src="README_files/figure-gfm/muestreo-1.png" width="100%" />
 
 ## Instalación del paquete R
 
