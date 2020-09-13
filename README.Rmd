@@ -20,7 +20,7 @@ del repositorio [First Contributions
 ## Contribuyentes actuales!
 
 A este repositorio han podido contribuido `r nrow(obtener_contribuyentes())` personas.
-Tomando una muestra de 500, veamos la distribución del pais de cada contribuyente:
+Tomando una muestra de 500, veamos la distribución del país de los contribuyentes:
 
 ```{r}
 library("firstContributionsInR")
