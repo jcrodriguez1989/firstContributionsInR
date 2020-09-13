@@ -10,7 +10,7 @@ library("firstContributionsInR")
 # Primeras Contribuciones en R
 
 <!-- badges: start -->
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 [![R build status](https://github.com/jcrodriguez1989/firstContributionsInR/workflows/R-CMD-check/badge.svg)](https://github.com/jcrodriguez1989/firstContributionsInR/actions)
 <!-- badges: end -->
 
@@ -23,7 +23,7 @@ del repositorio [First Contributions
 A este repositorio han podido contribuido `r nrow(obtener_contribuyentes())` personas.
 Tomando una muestra de 500, veamos la distribución del país de los contribuyentes:
 
-```{r}
+```{r muestreo}
 library("firstContributionsInR")
 library("ggplot2")
 
