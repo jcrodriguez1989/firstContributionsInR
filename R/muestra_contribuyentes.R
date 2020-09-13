@@ -6,12 +6,16 @@
 #' @param n Un número entero no negativo que indica el número de elementos a
 #'   muestrear.
 #'
+#' @return Un `tibble` con las banderas muestreadas.
+#'
 #' @examples
 #' # Tomamos una muestra de 10 banderas de las y los contribuyentes.
 #' muestra_contribuyentes(10)
 #'
+#' @importFrom tibble tibble
+#'
 #' @export
 #'
 muestra_contribuyentes <- function(n = 500) {
-  sample(contribuyentes$Pais, n, replace = TRUE)
+  tibble(Pais = sample(contribuyentes$Pais, n, replace = TRUE))
 }

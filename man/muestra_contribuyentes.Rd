@@ -10,6 +10,9 @@ muestra_contribuyentes(n = 500)
 \item{n}{Un número entero no negativo que indica el número de elementos a
 muestrear.}
 }
+\value{
+Un `tibble` con las banderas muestreadas.
+}
 \description{
 Toma una muestra, con reemplazo, de los países de las y los contribuyentes
 de este repositorio.
