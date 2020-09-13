@@ -3,7 +3,9 @@
 
 <!-- badges: start -->
 
-[![R build
+\[![Open Source
+Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) [![R
+build
 status](https://github.com/jcrodriguez1989/firstContributionsInR/workflows/R-CMD-check/badge.svg)](https://github.com/jcrodriguez1989/firstContributionsInR/actions)
 <!-- badges: end -->
 
@@ -80,14 +82,14 @@ Por ejemplo:
 
 La parte de `este-eres-tu` la reemplazarás con tu usuario de GitHub.
 Aquí estás copiando los contenidos del repositorio
-*first-contributions* en GitHub a tu equipo.
+*firstContributionsInR* en GitHub a tu equipo.
 
 ### Crea una rama (*Branch*)
 
 Cambia al directorio del repositorio en tu equipo (si es que no estás
 ahí ya).
 
-    cd first-contributions
+    cd firstContributionsInR
 
 Ahora crea una rama (*branch*) usando el comando `git checkout`:
 
@@ -130,7 +132,9 @@ Haz *push* de tus cambios usando el comando `git push`:
     git push origin <añade-el-nombre-de-la-rama>
 
 Reemplaza `<añade-el-nombre-de-la-rama>` con el nombre de la rama que
-creaste anteriormente.
+creaste anteriormente. En este ejemplo, sería:
+
+    git push origin agregar-juana-perez
 
 ### Envía (*Submit*) tus cambios para ser revisados
 
