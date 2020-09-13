@@ -21,20 +21,20 @@ knitr::opts_chunk$set(
 
 The goal of firstContributionsInR is to ...
 
-## Installation
+## Instalación
 
-You can install the released version of firstContributionsInR from [CRAN](https://CRAN.R-project.org) with:
+Actualmente, `firstContributionsInR` se encuentra unicamente como un paquete de
+GitHub.
 
-``` r
-install.packages("firstContributionsInR")
+Para instalarlo, correr lo siguiente en una consola R:
+
+```{r eval = FALSE}
+if (!require("remotes")) {
+  install.packages("remotes")
+}
+remotes::install_github("jcrodriguez1989/firstContributionsInR")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("jcrodriguez1989/firstContributionsInR")
-```
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
