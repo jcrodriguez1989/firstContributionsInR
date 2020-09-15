@@ -10,7 +10,7 @@ library("firstContributionsInR")
 # Primeras Contribuciones en R
 
 <!-- badges: start -->
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<!-- ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) -->
 [![R build status](https://github.com/jcrodriguez1989/firstContributionsInR/workflows/R-CMD-check/badge.svg)](https://github.com/jcrodriguez1989/firstContributionsInR/actions)
 <!-- badges: end -->
 
@@ -87,14 +87,17 @@ cd firstContributionsInR
 ```
 
 Ahora crea una rama (*branch*) usando el comando  `git checkout`:
+
 ```
 git checkout -b <añade tu nombre>
 ```
 
 Por ejemplo:
+
 ```
 git checkout -b agregar-juana-perez
 ```
+
 (El nombre de la rama no tiene por qué contener la palabra *add*, pero es razonable que lo tenga porque el objetivo de esta rama es añadir tu nombre a la lista.)
 
 ### Haz los cambios necesarios y confirma (*Commit*) esos cambios
@@ -112,9 +115,11 @@ git add R/zzz.R
 ```
 
 Ahora haz un *commit* sobre estos cambios ejecutando el comando `git commit`:
+
 ```
 git commit -m "Agregando a <tu-nombre> como contribuyente"
 ```
+
 cambiando `<tu-nombre>` con tu nombre.
 
 ### Manda (*Push*) tus cambios a GitHub
@@ -127,6 +132,21 @@ Reemplaza `<añade-el-nombre-de-la-rama>` con el nombre de la rama que creaste a
 ```
 git push origin agregar-juana-perez
 ```
+
+### Usando git desde RStudio
+
+RStudio incluye una interfaz a git. Desde RStudio, podemos realizar los pasos previos, para ello localiza la pestaña de Git.
+Agrega los cambios realizados (archivo `R/zzz.R`) tildándolos y dando click en *Commit*.
+
+<img align="right" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
+
+Agrega un mensaje al *Commit* (por ejemplo, "Agregando a <tu-nombre> como contribuyente"), y vuelve a clickear en *Commit*. Se abrira una ventana que muestra los cambios realizados, ciérrala dando click en *Close*.
+
+<img style="float: right;" src="README_files/capturas/rstudio-commit.png" alt="Commitear archivos" />
+
+Ahora solo falta hacer *Push* de nuestros cambios. Para hacer esto, solo basta con dar click en el botón *Push*.
+
+<img style="float: right;" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
 
 ### Envía (*Submit*) tus cambios para ser revisados
 
