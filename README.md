@@ -136,6 +136,26 @@ creaste anteriormente. En este ejemplo, sería:
 
     git push origin agregar-juana-perez
 
+### Usando git desde RStudio
+
+RStudio incluye una interfaz a git. Desde RStudio, podemos realizar los
+pasos previos, para ello localiza la pestaña de Git. Agrega los cambios
+realizados (archivo `R/zzz.R`) tildándolos y dando click en *Commit*.
+
+<img align="right" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
+
+Agrega un mensaje al *Commit* (por ejemplo, “Agregando a <tu-nombre>
+como contribuyente”), y vuelve a clickear en *Commit*. Se abrira una
+ventana que muestra los cambios realizados, ciérrala dando click en
+*Close*.
+
+<img style="float: right;" src="README_files/capturas/rstudio-commit.png" alt="Commitear archivos" />
+
+Ahora solo falta hacer *Push* de nuestros cambios. Para hacer esto, solo
+basta con dar click en el botón *Push*.
+
+<img style="float: right;" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
+
 ### Envía (*Submit*) tus cambios para ser revisados
 
 Si vas a tu repositorio en GitHub, verás un botón `Compare & pull
