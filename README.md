@@ -154,7 +154,7 @@ ventana que muestra los cambios realizados, ciérrala dando click en
 Ahora solo falta hacer *Push* de nuestros cambios. Para hacer esto, solo
 basta con dar click en el botón *Push*.
 
-<img style="float: right;" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
+<img align="right" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
 
 ### Envía (*Submit*) tus cambios para ser revisados
 
