@@ -2,7 +2,7 @@
 % Please edit documentation in R/muestra_contribuyentes.R
 \name{muestra_contribuyentes}
 \alias{muestra_contribuyentes}
-\title{Muestra de los Países de las y los Contribuyentes}
+\title{Muestra de las y los Contribuyentes}
 \usage{
 muestra_contribuyentes(n = 500)
 }
@@ -11,14 +11,14 @@ muestra_contribuyentes(n = 500)
 muestrear.}
 }
 \value{
-Un `tibble` con las banderas muestreadas.
+Un `tibble` con las y los contribuyentes muestreadas.
 }
 \description{
-Toma una muestra, con reemplazo, de los países de las y los contribuyentes
-de este repositorio.
+Toma una muestra, con reemplazo, de las y los contribuyentes de este
+repositorio.
 }
 \examples{
-# Tomamos una muestra de 10 banderas de las y los contribuyentes.
+# Tomamos una muestra de 10 contribuyentes.
 muestra_contribuyentes(10)
 
 }
