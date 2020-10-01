@@ -3,9 +3,9 @@
 
 <!-- badges: start -->
 
-![Open Source
-Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) [![R
-build
+[![Open Source
+Love](https://badges.frapsoft.com/os/v1/open-source.png)](https://github.com/ellerbrock/open-source-badges/)
+[![R build
 status](https://github.com/jcrodriguez1989/firstContributionsInR/workflows/R-CMD-check/badge.svg)](https://github.com/jcrodriguez1989/firstContributionsInR/actions)
 <!-- badges: end -->
 
@@ -44,13 +44,14 @@ remotes::install_github("jcrodriguez1989/firstContributionsInR")
 
 ## Tu primer contribución\!
 
-Si no lo has hecho aún, [inicia seción en
-GitHub](https://github.com/login). Si no tienes una cuenta, [crea
-una](https://github.com/join), es gratis\!
+Si no lo has hecho aún, [inicia sesión en
+GitHub](https://github.com/login). Si no tienes una cuenta,
+[créala](https://github.com/join), es gratis\!
 
 Si no tienes git en tu equipo, puedes encontrar instrucciones para
 instalarlo en [este
-enlace](https://help.github.com/articles/set-up-git/).
+enlace](https://help.github.com/articles/set-up-git/). Igualmente,
+RStudio incluye una interfaz a git 😉.
 
 ### Bifurca (*Fork*) este repositorio
 
@@ -105,8 +106,8 @@ nombre a la lista.)
 
 ### Haz los cambios necesarios y confirma (*Commit*) esos cambios
 
-Abre el archivo `R/zzz.R` en un editor de texto y añade tu nombre y
-bandera. Guarda el archivo.
+Abre el archivo `R/zzz.R` en un editor de texto ó RStudio y añade tu
+nombre y bandera. Guarda el archivo.
 
 <img align="right" width="450" src="README_files/capturas/git-status.png" alt="git status" />
 
@@ -123,7 +124,8 @@ commit`:
 
     git commit -m "Agregando a <tu-nombre> como contribuyente"
 
-cambiando `<tu-nombre>` con tu nombre.
+cambiando `<tu-nombre>` con tu nombre (luego de `-m` se incluye un
+comentario del `commit`).
 
 ### Manda (*Push*) tus cambios a GitHub
 
@@ -136,26 +138,6 @@ creaste anteriormente. En este ejemplo, sería:
 
     git push origin agregar-juana-perez
 
-### Usando git desde RStudio
-
-RStudio incluye una interfaz a git. Desde RStudio, podemos realizar los
-pasos previos, para ello localiza la pestaña de Git. Agrega los cambios
-realizados (archivo `R/zzz.R`) tildándolos y dando click en *Commit*.
-
-<img align="right" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
-
-Agrega un mensaje al *Commit* (por ejemplo, “Agregando a <tu-nombre>
-como contribuyente”), y vuelve a clickear en *Commit*. Se abrira una
-ventana que muestra los cambios realizados, ciérrala dando click en
-*Close*.
-
-<img style="float: right;" src="README_files/capturas/rstudio-commit.png" alt="Commitear archivos" />
-
-Ahora solo falta hacer *Push* de nuestros cambios. Para hacer esto, solo
-basta con dar click en el botón *Push*.
-
-<img align="right" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
-
 ### Envía (*Submit*) tus cambios para ser revisados
 
 Si vas a tu repositorio en GitHub, verás un botón `Compare & pull
@@ -167,15 +149,57 @@ Ahora envía la *pull request*.
 
 <img style="float: right;" src="README_files/capturas/submit-pull-request.png" alt="enviar la pull request" />
 
-Pronto estaré fusionando tus cambios (haciendo *merge*) con la rama
-master de este proyecto. Recibirás una notificación por correo
-electrónico cuando los cambios hayan sido fusionados.
+Pronto la/el dueña/o del repositorio (en este ejemplo yo\!) estará
+fusionando tus cambios (haciendo *merge*) con la rama master de este
+proyecto. Recibirás una notificación por correo electrónico cuando los
+cambios hayan sido fusionados.
 
 ### ¿Cuáles son los siguientes pasos?
 
-¡Enhorabuena\! ¡Has completado el flujo de trabajo *_fork -\> clone -\>
-edit -\> PR_* que encontrarás habitualmente como contribuidor\!
+¡Enhorabuena\! ¡Has completado el flujo de trabajo *_fork \~\> clone
+\~\> edit \~\> PR_* que encontrarás habitualmente como contribuidor\!
 
 Si quieres ser perfeccionar tus habilidades con git, te recomiendo el
 material [Happy Git and GitHub for the
 useR](https://happygitwithr.com/).
+
+### Usando git desde RStudio
+
+RStudio incluye una interfaz a git. Desde RStudio, podemos realizar los
+pasos previos, para ello localiza la pestaña de Git. Agrega los cambios
+realizados (archivo `R/zzz.R`) tildándolos y dando click en *Commit*.
+
+<img align="right" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
+
+Agrega un mensaje al *Commit* (por ejemplo, “Agregando a `<tu-nombre>`
+como contribuyente”), y vuelve a clickear en *Commit*. Se abrira una
+ventana que muestra los cambios realizados, ciérrala dando click en
+*Close*.
+
+<img style="float: right;" src="README_files/capturas/rstudio-commit.png" alt="Commitear archivos" />
+
+Ahora solo falta hacer *Push* de nuestros cambios. Para hacer esto, solo
+basta con dar click en el botón *Push*.
+
+<img align="right" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
+
+### ¿En que puedo contribuir?
+
+Fácil\! Dirígete al repositorio de GitHub de tu paquete R favorito, por
+ejemplo [el de `ggplot2`](https://github.com/tidyverse/ggplot2). Haz
+click en el botón
+[*Issues*](https://github.com/tidyverse/ggplot2/issues). Asígnate uno de
+los cientos de issues que debe haber sin resolver\!
+
+### Hacktoberfest
+
+Oye\! Estamos en Octubre, época en la que
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) nos premia por
+contribuir al código libre\! Inscríbete al Hacktoberfest, y durante todo
+Octubre, si realizas 4 Pull Requests a repositorios públicos, recibirás
+un premio por ello\!
+
+¿Más ideas de donde contribuir? En el [siguiente
+link](https://github.com/search?l=R&q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
+encontrarás repositorios R para los cuales sus creadores han marcado
+issues facilmente solucionables durante el Hacktoberfest.
