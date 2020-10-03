@@ -196,10 +196,13 @@ los cientos de issues que debe haber sin resolver\!
 Oye\! Estamos en Octubre, época en la que
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) nos premia por
 contribuir al código libre\! Inscríbete al Hacktoberfest, y durante todo
-Octubre, si realizas 4 Pull Requests a repositorios públicos, recibirás
+Octubre, si realizas 4 Pull Requests a repositorios adheridos, recibirás
 un premio por ello\!
 
-¿Más ideas de donde contribuir? En el [siguiente
+¿Que repositorios participan en Hacktoberfest? En el [siguiente
 link](https://github.com/search?l=R&q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
 encontrarás repositorios R para los cuales sus creadores han marcado
-issues facilmente solucionables durante el Hacktoberfest.
+issues facilmente solucionables durante el Hacktoberfest. Además,
+también valen PR, no asociadas a issues, para cualquiera de los
+repositorios R de [esta
+lista](https://github.com/topics/hacktoberfest?l=R).
