@@ -61,82 +61,50 @@ repositorio en tu cuenta de GitHub.
 
 ### Clona (*Clone*) el repositorio
 
-<img align="right" width="300" src="README_files/capturas/clone.png" alt="Clonar este repositorio" />
+<img style="float: right;" width="300" src="README_files/capturas/copy-to-clipboard.png" alt="Copiar URL al portapapeles" />
 
 Ahora clona este repositorio en tu equipo. Haz click en el botón
 “*Code*” y luego haz click en el icono para *copiar al
 portapapeles*.
 
-Abre tu consola o terminal y ejecuta el siguiente comando de git:
+Abre RStudio, haz click en *File* \~\> *New Project…* \~\> *Version
+Control* \~\> *Git*, y pega la “url que acabas de copiar” en el campo de
+*Repository URL:* y dale click a *Create Project*.
 
-    git clone "url que acabas de copiar"
-
-Donde pone “url que acabas de copiar” (sin las comillas dobles) es la
-*url* a este repositorio (tu *fork* a este proyecto). Mira los pasos
-previos para obtener la *url*.
-
-<img align="right" width="300" src="README_files/capturas/copy-to-clipboard.png" alt="Copiar URL al portapapeles" />
-
-Por ejemplo:
-
-    git clone https://github.com/este-eres-tu/firstContributionsInR.git
-
-La parte de `este-eres-tu` la reemplazarás con tu usuario de GitHub.
-Aquí estás copiando los contenidos del repositorio
-*firstContributionsInR* en GitHub a tu equipo.
+<img src="README_files/capturas/rstudio-clone.png" width="100%" />
 
 ### Crea una rama (*Branch*)
 
-Cambia al directorio del repositorio en tu equipo (si es que no estás
-ahí ya).
+<img style="float: right;" width="300" src="README_files/capturas/rstudio-git.png" alt="Panel git de RStudio" />
 
-    cd firstContributionsInR
+En RStudio, localiza la pestaña *Git*, hazle click. Da click en el botón
+*New Branch*. Dale un nombre a la nueva rama, por ejemplo,
+“agregar-juana-perez”.
 
-Ahora crea una rama (*branch*) usando el comando `git checkout`:
-
-    git checkout -b <añade tu nombre>
-
-Por ejemplo:
-
-    git checkout -b agregar-juana-perez
-
-(El nombre de la rama no tiene por qué contener la palabra *add*, pero
-es razonable que lo tenga porque el objetivo de esta rama es añadir tu
-nombre a la lista.)
+<img style="float: right;" width="300" src="README_files/capturas/rstudio-branch.png" alt="Nueva rama en RStudio" />
 
 ### Haz los cambios necesarios y confirma (*Commit*) esos cambios
 
-Abre el archivo `R/zzz.R` en un editor de texto ó RStudio y añade tu
-nombre y bandera. Guarda el archivo.
+Abre el archivo `R/zzz.R`, añade tu nombre y bandera. Guarda el archivo.
 
-<img align="right" width="450" src="README_files/capturas/git-status.png" alt="git status" />
+Agrega los cambios realizados (archivo `R/zzz.R`) tildándolos y dando
+click en *Commit*.
 
-Si vas al directorio del proyecto y ejecutas el comando `git status`,
-verás que hay cambios.
+<img style="float: right;" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
 
-Agrega esos cambios a la rama (*branch*) que creaste anteriormente
-usando el comando `git add`:
+Agrega un mensaje al *Commit* (por ejemplo, “Agregando a `<tu-nombre>`
+como contribuyente”), y vuelve a clickear en *Commit*. Se abrira una
+ventana que muestra los cambios realizados, ciérrala dando click en
+*Close*.
 
-    git add R/zzz.R
-
-Ahora haz un *commit* sobre estos cambios ejecutando el comando `git
-commit`:
-
-    git commit -m "Agregando a <tu-nombre> como contribuyente"
-
-cambiando `<tu-nombre>` con tu nombre (luego de `-m` se incluye un
-comentario del `commit`).
+<img style="float: right;" src="README_files/capturas/rstudio-commit.png" alt="Commitear archivos" />
 
 ### Manda (*Push*) tus cambios a GitHub
 
-Haz *push* de tus cambios usando el comando `git push`:
+Haz *push* de tus cambios. Para hacer esto, solo basta con dar click en
+el botón *Push*.
 
-    git push origin <añade-el-nombre-de-la-rama>
-
-Reemplaza `<añade-el-nombre-de-la-rama>` con el nombre de la rama que
-creaste anteriormente. En este ejemplo, sería:
-
-    git push origin agregar-juana-perez
+<img style="float: right;" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
 
 ### Envía (*Submit*) tus cambios para ser revisados
 
@@ -149,7 +117,7 @@ Ahora envía la *pull request*.
 
 <img style="float: right;" src="README_files/capturas/submit-pull-request.png" alt="enviar la pull request" />
 
-Pronto la/el dueña/o del repositorio (en este ejemplo yo\!) estará
+Pronto quien mantiene el repositorio (en este ejemplo yo\!) estará
 fusionando tus cambios (haciendo *merge*) con la rama master de este
 proyecto. Recibirás una notificación por correo electrónico cuando los
 cambios hayan sido fusionados.
@@ -163,26 +131,6 @@ Si quieres ser perfeccionar tus habilidades con git, te recomiendo el
 material [Happy Git and GitHub for the
 useR](https://happygitwithr.com/).
 
-### Usando git desde RStudio
-
-RStudio incluye una interfaz a git. Desde RStudio, podemos realizar los
-pasos previos, para ello localiza la pestaña de Git. Agrega los cambios
-realizados (archivo `R/zzz.R`) tildándolos y dando click en *Commit*.
-
-<img align="right" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
-
-Agrega un mensaje al *Commit* (por ejemplo, “Agregando a `<tu-nombre>`
-como contribuyente”), y vuelve a clickear en *Commit*. Se abrira una
-ventana que muestra los cambios realizados, ciérrala dando click en
-*Close*.
-
-<img style="float: right;" src="README_files/capturas/rstudio-commit.png" alt="Commitear archivos" />
-
-Ahora solo falta hacer *Push* de nuestros cambios. Para hacer esto, solo
-basta con dar click en el botón *Push*.
-
-<img align="right" width="300" src="README_files/capturas/rstudio-push.png" alt="Enviar archivos mediante git push" />
-
 ### ¿En que puedo contribuir?
 
 Fácil\! Dirígete al repositorio de GitHub de tu paquete R favorito, por
@@ -190,19 +138,3 @@ ejemplo [el de `ggplot2`](https://github.com/tidyverse/ggplot2). Haz
 click en el botón
 [*Issues*](https://github.com/tidyverse/ggplot2/issues). Asígnate uno de
 los cientos de issues que debe haber sin resolver\!
-
-### Hacktoberfest
-
-Oye\! Estamos en Octubre, época en la que
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) nos premia por
-contribuir al código libre\! Inscríbete al Hacktoberfest, y durante todo
-Octubre, si realizas 4 Pull Requests a repositorios adheridos, recibirás
-un premio por ello\!
-
-¿Que repositorios participan en Hacktoberfest? En el [siguiente
-enlace](https://github.com/search?l=R&q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
-encontrarás repositorios R para los cuales sus creadores han marcado
-issues facilmente solucionables durante el Hacktoberfest. Además,
-también valen PR, no asociadas a issues, para cualquiera de los
-repositorios R de [esta
-lista](https://github.com/topics/hacktoberfest?l=R).
