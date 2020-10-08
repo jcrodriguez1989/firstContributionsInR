@@ -25,10 +25,15 @@ Tomando una muestra de 500, veamos la distribución del país de los contribuyen
 
 ```{r muestreo}
 library("firstContributionsInR")
+library("dplyr")
 library("ggplot2")
 
-ggplot(muestra_contribuyentes(n = 500), aes(x = Pais)) +
-  geom_bar()
+muestra_contribuyentes(n = 500) %>% 
+  count(Pais) %>% 
+  ggplot(aes(x = Pais, y = n, label = Pais)) +
+  geom_col() +
+  geom_text(aes(y = n / 2)) +
+  theme(axis.text.x = element_blank())
 ```
 
 ## Instalación del paquete R
