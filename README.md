@@ -13,10 +13,10 @@ Mini tutorial que nos enseña a contribuir al código libre en R. Este
 tutorial se basa en el trabajo del repositorio [First
 Contributions](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.es.md).
 
-## Contribuyentes actuales\!
+## ¡Contribuyentes actuales\!
 
-A este repositorio han podido contribuido 1 personas. Tomando una
-muestra de 500, veamos la distribución del país de los contribuyentes:
+A este repositorio han contribuido 1 personas. Tomando una muestra de
+500, veamos la distribución del país de los contribuyentes:
 
 ``` r
 library("firstContributionsInR")
@@ -43,7 +43,7 @@ muestra_contribuyentes(n = 500) %>%
 
 ## Instalación del paquete R
 
-Actualmente, `firstContributionsInR` se encuentra unicamente como un
+Actualmente, `firstContributionsInR` se encuentra únicamente como un
 paquete de GitHub.
 
 Para instalarlo, correr el siguiente código en una consola R:
@@ -55,11 +55,11 @@ if (!require("remotes")) {
 remotes::install_github("jcrodriguez1989/firstContributionsInR")
 ```
 
-## Tu primer contribución\!
+## ¡Tu primera contribución\!
 
 Si no lo has hecho aún, [inicia sesión en
 GitHub](https://github.com/login). Si no tienes una cuenta,
-[créala](https://github.com/join), es gratis\!
+[créala](https://github.com/join), ¡es gratis\!
 
 Si no tienes git en tu equipo, puedes encontrar instrucciones para
 instalarlo en [este
@@ -81,7 +81,7 @@ Ahora clona este repositorio en tu equipo. Haz click en el botón
 portapapeles*.
 
 Abre RStudio, haz click en *File* \~\> *New Project…* \~\> *Version
-Control* \~\> *Git*, y pega la “url que acabas de copiar” en el campo de
+Control* \~\> *Git*, pega la “url que acabas de copiar” en el campo de
 *Repository URL:* y dale click a *Create Project*.
 
 <img src="README_files/capturas/rstudio-clone.png" width="100%" />
@@ -106,7 +106,7 @@ click en *Commit*.
 <img style="float: right;" width="300" src="README_files/capturas/rstudio-add.png" alt="Agregar archivos git" />
 
 Agrega un mensaje al *Commit* (por ejemplo, “Agregando a `<tu-nombre>`
-como contribuyente”), y vuelve a clickear en *Commit*. Se abrira una
+como contribuyente”), y vuelve a clickear en *Commit*. Se abrirá una
 ventana que muestra los cambios realizados, ciérrala dando click en
 *Close*.
 
@@ -140,30 +140,32 @@ cambios hayan sido fusionados.
 ¡Enhorabuena\! ¡Has completado el flujo de trabajo *_fork \~\> clone
 \~\> edit \~\> PR_* que encontrarás habitualmente como contribuidor\!
 
-Si quieres ser perfeccionar tus habilidades con git, te recomiendo el
+Si quieres perfeccionar tus habilidades con git, te recomiendo el
 material [Happy Git and GitHub for the
 useR](https://happygitwithr.com/).
 
-### ¿En que puedo contribuir?
+### ¿En qué puedo contribuir?
 
-Fácil\! Dirígete al repositorio de GitHub de tu paquete R favorito, por
+¡Fácil\! Dirígete al repositorio de GitHub de tu paquete R favorito, por
 ejemplo [el de `ggplot2`](https://github.com/tidyverse/ggplot2). Haz
 click en el botón
-[*Issues*](https://github.com/tidyverse/ggplot2/issues). Asígnate uno de
-los cientos de issues que debe haber sin resolver\!
+[*Issues*](https://github.com/tidyverse/ggplot2/issues). ¡Asígnate uno
+de los cientos de issues que debe haber sin resolver\!
 
 ### Hacktoberfest
 
-Oye\! Estamos en Octubre, época en la que
+¡Oye\! Estamos en Octubre, época en la que
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) nos premia por
 contribuir al código libre\! Inscríbete al Hacktoberfest, y durante todo
 Octubre, si realizas 4 Pull Requests a repositorios adheridos, recibirás
 un premio por ello\!
 
-¿Que repositorios participan en Hacktoberfest? En el [siguiente
+¿Qué repositorios participan en Hacktoberfest? En el [siguiente
 enlace](https://github.com/search?l=R&q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
 encontrarás repositorios R para los cuales sus creadores han marcado
-issues facilmente solucionables durante el Hacktoberfest. Además,
+issues fácilmente solucionables durante el Hacktoberfest. Además,
 también valen PR, no asociadas a issues, para cualquiera de los
 repositorios R de [esta
-lista](https://github.com/topics/hacktoberfest?l=R).
+lista](https://github.com/topics/hacktoberfest?l=R). También valen PR a
+otros repositorios públicos siempre que el PR sea etiquetado como
+*hacktoberfest-accepted* por quien mantiene el repositorio.
