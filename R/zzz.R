@@ -6,4 +6,6 @@ contribuyentes <- tibble::tribble(
   # Cada contribuyente agrega una fila con su nombre-apellido y su bandera.
   # Ordenados alfabeticamente. Por ejemplo,
   "Juan Cruz Rodriguez", emojifont::emoji(tolower("Argentina")),
+  "Natalia Morandeira", emojifont::emoji(tolower("Argentina")),
+
 )
