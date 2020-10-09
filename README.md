@@ -33,7 +33,7 @@ ggplot(muestra_contribuyentes(n = 500), aes(x = Pais)) +
 Actualmente, `firstContributionsInR` se encuentra únicamente como un
 paquete de GitHub.
 
-Para instalarlo, correr el siguiente código en una consola R:
+Para instalarlo, corre el siguiente código en una consola R:
 
 ``` r
 if (!require("remotes")) {
