@@ -7,5 +7,5 @@ contribuyentes <- tibble::tribble(
   # Ordenados alfabeticamente. Por ejemplo,
   "Juan Cruz Rodriguez", emojifont::emoji(tolower("Argentina")),
   "Natalia Morandeira", emojifont::emoji(tolower("Argentina")),
-
+  "Julio Augusto Spairani", emojifont::emoji(tolower("Argentina")),
 )
