@@ -15,7 +15,7 @@ Contributions](https://github.com/firstcontributions/first-contributions/blob/ma
 
 ## ¡Contribuyentes actuales\!
 
-A este repositorio han contribuido 2 personas. Tomando una muestra de
+A este repositorio han contribuido 3 personas. Tomando una muestra de
 500, veamos la distribución del país de los contribuyentes:
 
 ``` r
@@ -33,7 +33,7 @@ ggplot(muestra_contribuyentes(n = 500), aes(x = Pais)) +
 Actualmente, `firstContributionsInR` se encuentra únicamente como un
 paquete de GitHub.
 
-Para instalarlo, correr el siguiente código en una consola R:
+Para instalarlo, corre el siguiente código en una consola R:
 
 ``` r
 if (!require("remotes")) {
