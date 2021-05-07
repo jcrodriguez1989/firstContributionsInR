@@ -15,7 +15,7 @@ Contributions](https://github.com/firstcontributions/first-contributions/blob/ma
 
 ## ¡Contribuyentes actuales\!
 
-A este repositorio han contribuido 3 personas. Tomando una muestra de
+A este repositorio han contribuido 4 personas. Tomando una muestra de
 500, veamos la distribución del país de los contribuyentes:
 
 ``` r
