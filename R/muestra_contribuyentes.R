@@ -11,7 +11,6 @@
 #' @examples
 #' # Tomamos una muestra de 10 contribuyentes.
 #' muestra_contribuyentes(10)
-#'
 #' @importFrom tibble tibble
 #'
 #' @export
