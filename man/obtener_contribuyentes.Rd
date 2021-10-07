@@ -11,5 +11,4 @@ Devuelve un tibble que lista todos los contribuyentes de este repositorio.
 }
 \examples{
 head(obtener_contribuyentes())
-
 }

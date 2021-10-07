@@ -4,7 +4,6 @@
 #'
 #' @examples
 #' head(obtener_contribuyentes())
-#'
 #' @export
 #'
 obtener_contribuyentes <- function() {
