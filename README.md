@@ -36,9 +36,13 @@ paquete de GitHub.
 Para instalarlo, corre el siguiente código en una consola R:
 
 ``` r
+# Si no tenemos instalado el paquete `{remotes}`,
 if (!require("remotes")) {
+  # entonces lo instala.
   install.packages("remotes")
 }
+# Utilizando el paquete `{remotes}` instala el repositorio "jcrodriguez1989/firstContributionsInR"
+# desde github.
 remotes::install_github("jcrodriguez1989/firstContributionsInR")
 ```
 
@@ -118,7 +122,7 @@ Ahora envía la *pull request*.
 <img style="float: right;" src="README_files/capturas/submit-pull-request.png" alt="enviar la pull request" />
 
 Pronto quien mantiene el repositorio (en este ejemplo yo\!) estará
-fusionando tus cambios (haciendo *merge*) con la rama master de este
+incorporando tus cambios (haciendo *merge*) con la rama master de este
 proyecto. Recibirás una notificación por correo electrónico cuando los
 cambios hayan sido fusionados.
 
@@ -151,7 +155,7 @@ un premio por ello\!
 enlace](https://github.com/search?l=R&q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
 encontrarás repositorios R para los cuales sus creadores han marcado
 issues fácilmente solucionables durante el Hacktoberfest. Además,
-también valen PR, no asociadas a issues, para cualquiera de los
+también valen PR no asociadas a issues, para cualquiera de los
 repositorios R de [esta
 lista](https://github.com/topics/hacktoberfest?l=R). También valen PR a
 otros repositorios públicos siempre que el PR sea etiquetado como
