@@ -142,3 +142,21 @@ ejemplo [el de `ggplot2`](https://github.com/tidyverse/ggplot2). Haz
 click en el botón
 [*Issues*](https://github.com/tidyverse/ggplot2/issues). ¡Asígnate uno
 de los cientos de issues que debe haber sin resolver\!
+
+### Hacktoberfest
+
+¡Oye\! Estamos en Octubre, época en la que
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) nos premia por
+contribuir al código libre\! Inscríbete al Hacktoberfest, y durante todo
+Octubre, si realizas 4 Pull Requests a repositorios adheridos, recibirás
+un premio por ello\!
+
+¿Qué repositorios participan en Hacktoberfest? En el [siguiente
+enlace](https://github.com/search?l=R&q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
+encontrarás repositorios R para los cuales sus creadores han marcado
+issues fácilmente solucionables durante el Hacktoberfest. Además,
+también valen PR no asociadas a issues, para cualquiera de los
+repositorios R de [esta
+lista](https://github.com/topics/hacktoberfest?l=R). También valen PR a
+otros repositorios públicos siempre que el PR sea etiquetado como
+*hacktoberfest-accepted* por quien mantiene el repositorio.
