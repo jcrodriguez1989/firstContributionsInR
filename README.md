@@ -13,7 +13,7 @@ Mini tutorial que nos enseña a contribuir al código libre en R. Este
 tutorial se basa en el trabajo del repositorio [First
 Contributions](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.es.md).
 
-## ¡Contribuyentes actuales\!
+## ¡Contribuyentes actuales!
 
 A este repositorio han contribuido 4 personas. Tomando una muestra de
 500, veamos la distribución del país de los contribuyentes:
@@ -46,11 +46,11 @@ if (!require("remotes")) {
 remotes::install_github("jcrodriguez1989/firstContributionsInR")
 ```
 
-## ¡Tu primera contribución\!
+## ¡Tu primera contribución!
 
 Si no lo has hecho aún, [inicia sesión en
 GitHub](https://github.com/login). Si no tienes una cuenta,
-[créala](https://github.com/join), ¡es gratis\!
+[créala](https://github.com/join), ¡es gratis!
 
 Si no tienes git en tu equipo, puedes encontrar instrucciones para
 instalarlo en [este
@@ -68,11 +68,10 @@ repositorio en tu cuenta de GitHub.
 <img style="float: right;" width="300" src="README_files/capturas/copy-to-clipboard.png" alt="Copiar URL al portapapeles" />
 
 Ahora clona este repositorio en tu equipo. Haz click en el botón
-“*Code*” y luego haz click en el icono para *copiar al
-portapapeles*.
+“*Code*” y luego haz click en el icono para *copiar al portapapeles*.
 
-Abre RStudio, haz click en *File* \~\> *New Project…* \~\> *Version
-Control* \~\> *Git*, pega la “url que acabas de copiar” en el campo de
+Abre RStudio, haz click en *File* ~\> *New Project…* ~\> *Version
+Control* ~\> *Git*, pega la “url que acabas de copiar” en el campo de
 *Repository URL:* y dale click a *Create Project*.
 
 <img src="README_files/capturas/rstudio-clone.png" width="100%" />
@@ -112,8 +111,8 @@ el botón *Push*.
 
 ### Envía (*Submit*) tus cambios para ser revisados
 
-Si vas a tu repositorio en GitHub, verás un botón `Compare & pull
-request`. Haz click sobre este botón.
+Si vas a tu repositorio en GitHub, verás un botón
+`Compare & pull request`. Haz click sobre este botón.
 
 <img style="float: right;" src="README_files/capturas/compare-and-pull.png" alt="crea una pull request" />
 
@@ -121,15 +120,15 @@ Ahora envía la *pull request*.
 
 <img style="float: right;" src="README_files/capturas/submit-pull-request.png" alt="enviar la pull request" />
 
-Pronto quien mantiene el repositorio (en este ejemplo yo\!) estará
+Pronto quien mantiene el repositorio (en este ejemplo yo!) estará
 incorporando tus cambios (haciendo *merge*) con la rama master de este
 proyecto. Recibirás una notificación por correo electrónico cuando los
 cambios hayan sido fusionados.
 
 ### ¿Cuáles son los siguientes pasos?
 
-¡Enhorabuena\! ¡Has completado el flujo de trabajo *_fork \~\> clone
-\~\> edit \~\> PR_* que encontrarás habitualmente como contribuidor\!
+¡Enhorabuena! ¡Has completado el flujo de trabajo **fork ~\> clone ~\>
+edit ~\> PR** que encontrarás habitualmente como contribuidor!
 
 Si quieres perfeccionar tus habilidades con git, te recomiendo el
 material [Happy Git and GitHub for the
@@ -137,8 +136,8 @@ useR](https://happygitwithr.com/).
 
 ### ¿En qué puedo contribuir?
 
-¡Fácil\! Dirígete al repositorio de GitHub de tu paquete R favorito, por
+¡Fácil! Dirígete al repositorio de GitHub de tu paquete R favorito, por
 ejemplo [el de `ggplot2`](https://github.com/tidyverse/ggplot2). Haz
 click en el botón
 [*Issues*](https://github.com/tidyverse/ggplot2/issues). ¡Asígnate uno
-de los cientos de issues que debe haber sin resolver\!
+de los cientos de issues que debe haber sin resolver!
