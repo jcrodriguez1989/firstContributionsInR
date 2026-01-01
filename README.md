@@ -26,7 +26,7 @@ ggplot(muestra_contribuyentes(n = 500), aes(x = Pais)) +
   geom_bar()
 ```
 
-<img src="README_files/figure-gfm/muestreo-1.png" width="100%" />
+<img src="README_files/figure-gfm/muestreo-1.png" alt="" width="100%" />
 
 ## Instalación del paquete R
 
@@ -74,7 +74,7 @@ Abre RStudio, haz click en *File* ~\> *New Project…* ~\> *Version
 Control* ~\> *Git*, pega la “url que acabas de copiar” en el campo de
 *Repository URL:* y dale click a *Create Project*.
 
-<img src="README_files/capturas/rstudio-clone.png" width="100%" />
+<img src="README_files/capturas/rstudio-clone.png" alt="" width="100%" />
 
 ### Crea una rama (*Branch*)
 
