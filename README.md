@@ -127,8 +127,8 @@ cambios hayan sido fusionados.
 
 ### ¿Cuáles son los siguientes pasos?
 
-¡Enhorabuena! ¡Has completado el flujo de trabajo **fork ~\> clone ~\>
-edit ~\> PR** que encontrarás habitualmente como contribuidor!
+¡Enhorabuena! ¡Has completado el flujo de trabajo fork ~\> clone ~\>
+edit ~\> PR que encontrarás habitualmente como contribuidor!
 
 Si quieres perfeccionar tus habilidades con git, te recomiendo el
 material [Happy Git and GitHub for the
